@@ -15,7 +15,10 @@ class Calculate {
     }
     
     var devide: Int {
-        a / b
+        if (b == 0) {
+           fatalError("cannot devide by 0")
+        }
+          return   a / b
     }
     
     var multiply: Int {
@@ -45,32 +48,42 @@ var calkMultiply = Calculate(a: 3, b: 50).multiply
 //task 2
 
 
-class Figue {
-    
-    var description: String = "";
-    var angleNum: Int = 0;
-    
-    init(description: String, angleNum: Int){
-        self.description = description;
-        self.angleNum = angleNum;
+class Figure {
+    var description: String {
+        return "Initial figure"
     }
     
-    func draw (){
-        if (angleNum == 3) {
-            print("Traingle")
-        } else if (angleNum == 4) {
-            print("Square")
-        } else if (angleNum == 5){
-            print("Pentagon")
-        } else if (angleNum == 5){
-            print("Hexagon")
-        } else {
-            print("Circle")
-        }
+    var numberOfAngles: Int {
+        return 0
     }
-    
+    var draw: Void {
+        print(description)
+    }
 }
 
-let traingle = Figue(description:"traingle" , angleNum: 3).draw()
 
-let square = Figue(description:"square" , angleNum: 4).draw()
+class Traingle: Figure {
+    override var description: String {
+        return "This is Traingle"
+    }
+    
+    override var numberOfAngles: Int {
+        return 3
+    }
+}
+
+class Square: Figure {
+    override var description: String {
+        return "This is Square"
+    }
+    
+    override var numberOfAngles: Int {
+        return 4
+    }
+}
+
+
+var tr = Traingle().draw
+
+
+var sq = Square().draw
