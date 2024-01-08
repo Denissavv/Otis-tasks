@@ -1,9 +1,3 @@
-//
-//  SceneDelegate.swift
-//  Operation_ДЗ
-//
-//  Created by Илья Кузнецов on 27.12.2023.
-//
 
 import UIKit
 

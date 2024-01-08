@@ -1,9 +1,3 @@
-//
-//  CustomImageView.swift
-//  Operation_ДЗ
-//
-//  Created by Илья Кузнецов on 02.01.2024.
-//
 
 import UIKit
 
