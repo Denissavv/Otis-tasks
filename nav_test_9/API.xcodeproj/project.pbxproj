@@ -19,6 +19,7 @@
 		9266C4242AFA98CF00E57210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9266C4222AFA98CF00E57210 /* LaunchScreen.storyboard */; };
 		9266C4482AFA9E2A00E57210 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9266C4472AFA9E2A00E57210 /* CustomTableViewCell.swift */; };
 		92BAC2662AFBF2A50022E576 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BAC2652AFBF2A50022E576 /* DetailsViewController.swift */; };
+		92C695B62B78F1250060F6E6 /* ViewControllerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C695B52B78F1250060F6E6 /* ViewControllerRouter.swift */; };
 		92E672E02B77960600FB40F4 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E672DF2B77960600FB40F4 /* Router.swift */; };
 		92E672E22B77968100FB40F4 /* Rotable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E672E12B77968100FB40F4 /* Rotable.swift */; };
 		92E672E62B77975000FB40F4 /* StartapRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E672E52B77975000FB40F4 /* StartapRouter.swift */; };
@@ -30,7 +31,6 @@
 		92E672F92B78AA8200FB40F4 /* StartupPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E672F82B78AA8200FB40F4 /* StartupPresenter.swift */; };
 		92E672FB2B78AA9000FB40F4 /* StartupInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E672FA2B78AA9000FB40F4 /* StartupInteractor.swift */; };
 		92E672FE2B78B04400FB40F4 /* AppConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E672FD2B78B04400FB40F4 /* AppConfigurator.swift */; };
-		92E673012B78B60E00FB40F4 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E673002B78B60E00FB40F4 /* Router.swift */; };
 		92E673042B78BD0C00FB40F4 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E673032B78BD0C00FB40F4 /* Presenter.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +49,7 @@
 		9266C4252AFA98CF00E57210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9266C4472AFA9E2A00E57210 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		92BAC2652AFBF2A50022E576 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		92C695B52B78F1250060F6E6 /* ViewControllerRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerRouter.swift; sourceTree = "<group>"; };
 		92E672DF2B77960600FB40F4 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		92E672E12B77968100FB40F4 /* Rotable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotable.swift; sourceTree = "<group>"; };
 		92E672E52B77975000FB40F4 /* StartapRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartapRouter.swift; sourceTree = "<group>"; };
@@ -60,7 +61,6 @@
 		92E672F82B78AA8200FB40F4 /* StartupPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartupPresenter.swift; sourceTree = "<group>"; };
 		92E672FA2B78AA9000FB40F4 /* StartupInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartupInteractor.swift; sourceTree = "<group>"; };
 		92E672FD2B78B04400FB40F4 /* AppConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfigurator.swift; sourceTree = "<group>"; };
-		92E673002B78B60E00FB40F4 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		92E673032B78BD0C00FB40F4 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,8 +112,8 @@
 		9266C4162AFA98CE00E57210 /* nav_test_9 */ = {
 			isa = PBXGroup;
 			children = (
+				92C695B42B78F10F0060F6E6 /* ViewControllerRouter */,
 				92E673022B78BCFD00FB40F4 /* Presenter */,
-				92E672FF2B78B60300FB40F4 /* Router */,
 				92E672FC2B78B03700FB40F4 /* DI */,
 				92E672F02B78A78900FB40F4 /* Services */,
 				92E672E72B7797CB00FB40F4 /* AppRouter */,
@@ -132,6 +132,14 @@
 				9257C7CF2B3FF3160066D49C /* User.swift */,
 			);
 			path = nav_test_9;
+			sourceTree = "<group>";
+		};
+		92C695B42B78F10F0060F6E6 /* ViewControllerRouter */ = {
+			isa = PBXGroup;
+			children = (
+				92C695B52B78F1250060F6E6 /* ViewControllerRouter.swift */,
+			);
+			path = ViewControllerRouter;
 			sourceTree = "<group>";
 		};
 		92E672DD2B7795E800FB40F4 /* Model */ = {
@@ -228,14 +236,6 @@
 			path = DI;
 			sourceTree = "<group>";
 		};
-		92E672FF2B78B60300FB40F4 /* Router */ = {
-			isa = PBXGroup;
-			children = (
-				92E673002B78B60E00FB40F4 /* Router.swift */,
-			);
-			path = Router;
-			sourceTree = "<group>";
-		};
 		92E673022B78BCFD00FB40F4 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
@@ -322,10 +322,10 @@
 				9266C4182AFA98CE00E57210 /* AppDelegate.swift in Sources */,
 				92E672F22B78A7A900FB40F4 /* StorageService.swift in Sources */,
 				92E672F92B78AA8200FB40F4 /* StartupPresenter.swift in Sources */,
+				92C695B62B78F1250060F6E6 /* ViewControllerRouter.swift in Sources */,
 				9266C4482AFA9E2A00E57210 /* CustomTableViewCell.swift in Sources */,
 				92E672F52B78A7F000FB40F4 /* TestStorage.swift in Sources */,
 				92E672E22B77968100FB40F4 /* Rotable.swift in Sources */,
-				92E673012B78B60E00FB40F4 /* Router.swift in Sources */,
 				9266C41A2AFA98CE00E57210 /* SceneDelegate.swift in Sources */,
 				92E673042B78BD0C00FB40F4 /* Presenter.swift in Sources */,
 				9257C7D02B3FF3160066D49C /* User.swift in Sources */,

@@ -29,7 +29,7 @@ class AppRouter: NSObject, Router {
     func start() {
         navController.delegate = self
         uiWindow?.rootViewController = navController
-        let startapRouter = StartapRouter(navcontroller:navController, parent: self)
+        let startapRouter = StartapRouter(navController:navController, parent: self)
         startapRouter.start()
         
         uiWindow?.makeKeyAndVisible()
