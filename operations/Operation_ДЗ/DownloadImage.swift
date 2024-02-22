@@ -1,4 +1,3 @@
-
 import Foundation
 import UIKit
 
@@ -10,8 +9,12 @@ class DownloadImage: Operation {
 
     private override init() {}
 
+    private static var sharedOperationQueue: OperationQueue = {
+        let queue = OperationQueue()
+        return queue
+    }()
+
     var task: URLSessionTask!
-    var operationQueue = OperationQueue()
 
     func loadImage(from url: URL) {
 
@@ -21,7 +24,7 @@ class DownloadImage: Operation {
             task.cancel()
         }
 
-        operationQueue.addOperation {
+        DownloadImage.sharedOperationQueue.addOperation {
             if let imageFromCache = cache.object(forKey: url.absoluteString as AnyObject) as? UIImage {
                 self.imageView.image = imageFromCache
                 return
@@ -38,5 +41,4 @@ class DownloadImage: Operation {
             self.task.resume()
         }
     }
-
 }

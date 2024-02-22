@@ -19,6 +19,19 @@
 		9266C4242AFA98CF00E57210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9266C4222AFA98CF00E57210 /* LaunchScreen.storyboard */; };
 		9266C4482AFA9E2A00E57210 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9266C4472AFA9E2A00E57210 /* CustomTableViewCell.swift */; };
 		92BAC2662AFBF2A50022E576 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BAC2652AFBF2A50022E576 /* DetailsViewController.swift */; };
+		92C695B62B78F1250060F6E6 /* ViewControllerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C695B52B78F1250060F6E6 /* ViewControllerRouter.swift */; };
+		92E672E02B77960600FB40F4 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E672DF2B77960600FB40F4 /* Router.swift */; };
+		92E672E22B77968100FB40F4 /* Rotable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E672E12B77968100FB40F4 /* Rotable.swift */; };
+		92E672E62B77975000FB40F4 /* StartapRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E672E52B77975000FB40F4 /* StartapRouter.swift */; };
+		92E672E92B7797DD00FB40F4 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E672E82B7797DD00FB40F4 /* AppRouter.swift */; };
+		92E672EC2B77AAF100FB40F4 /* StoryBoardAndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E672EB2B77AAF100FB40F4 /* StoryBoardAndViewController.swift */; };
+		92E672EF2B77AD8700FB40F4 /* StartapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E672EE2B77AD8700FB40F4 /* StartapViewController.swift */; };
+		92E672F22B78A7A900FB40F4 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E672F12B78A7A900FB40F4 /* StorageService.swift */; };
+		92E672F52B78A7F000FB40F4 /* TestStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E672F42B78A7F000FB40F4 /* TestStorage.swift */; };
+		92E672F92B78AA8200FB40F4 /* StartupPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E672F82B78AA8200FB40F4 /* StartupPresenter.swift */; };
+		92E672FB2B78AA9000FB40F4 /* StartupInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E672FA2B78AA9000FB40F4 /* StartupInteractor.swift */; };
+		92E672FE2B78B04400FB40F4 /* AppConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E672FD2B78B04400FB40F4 /* AppConfigurator.swift */; };
+		92E673042B78BD0C00FB40F4 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E673032B78BD0C00FB40F4 /* Presenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +49,19 @@
 		9266C4252AFA98CF00E57210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9266C4472AFA9E2A00E57210 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		92BAC2652AFBF2A50022E576 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		92C695B52B78F1250060F6E6 /* ViewControllerRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerRouter.swift; sourceTree = "<group>"; };
+		92E672DF2B77960600FB40F4 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		92E672E12B77968100FB40F4 /* Rotable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotable.swift; sourceTree = "<group>"; };
+		92E672E52B77975000FB40F4 /* StartapRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartapRouter.swift; sourceTree = "<group>"; };
+		92E672E82B7797DD00FB40F4 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		92E672EB2B77AAF100FB40F4 /* StoryBoardAndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBoardAndViewController.swift; sourceTree = "<group>"; };
+		92E672EE2B77AD8700FB40F4 /* StartapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartapViewController.swift; sourceTree = "<group>"; };
+		92E672F12B78A7A900FB40F4 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		92E672F42B78A7F000FB40F4 /* TestStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStorage.swift; sourceTree = "<group>"; };
+		92E672F82B78AA8200FB40F4 /* StartupPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartupPresenter.swift; sourceTree = "<group>"; };
+		92E672FA2B78AA9000FB40F4 /* StartupInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartupInteractor.swift; sourceTree = "<group>"; };
+		92E672FD2B78B04400FB40F4 /* AppConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfigurator.swift; sourceTree = "<group>"; };
+		92E673032B78BD0C00FB40F4 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +112,13 @@
 		9266C4162AFA98CE00E57210 /* nav_test_9 */ = {
 			isa = PBXGroup;
 			children = (
+				92C695B42B78F10F0060F6E6 /* ViewControllerRouter */,
+				92E673022B78BCFD00FB40F4 /* Presenter */,
+				92E672FC2B78B03700FB40F4 /* DI */,
+				92E672F02B78A78900FB40F4 /* Services */,
+				92E672E72B7797CB00FB40F4 /* AppRouter */,
+				92E672E32B7796FC00FB40F4 /* StartapScreen */,
+				92E672DD2B7795E800FB40F4 /* Model */,
 				9257C7C72B3FF28C0066D49C /* ApiClient */,
 				9266C4172AFA98CE00E57210 /* AppDelegate.swift */,
 				9266C4192AFA98CE00E57210 /* SceneDelegate.swift */,
@@ -99,6 +132,116 @@
 				9257C7CF2B3FF3160066D49C /* User.swift */,
 			);
 			path = nav_test_9;
+			sourceTree = "<group>";
+		};
+		92C695B42B78F10F0060F6E6 /* ViewControllerRouter */ = {
+			isa = PBXGroup;
+			children = (
+				92C695B52B78F1250060F6E6 /* ViewControllerRouter.swift */,
+			);
+			path = ViewControllerRouter;
+			sourceTree = "<group>";
+		};
+		92E672DD2B7795E800FB40F4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				92E672EA2B77AAC700FB40F4 /* Extention */,
+				92E672DE2B7795F700FB40F4 /* Router */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92E672DE2B7795F700FB40F4 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				92E672DF2B77960600FB40F4 /* Router.swift */,
+				92E672E12B77968100FB40F4 /* Rotable.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		92E672E32B7796FC00FB40F4 /* StartapScreen */ = {
+			isa = PBXGroup;
+			children = (
+				92E672F72B78A9F800FB40F4 /* Presenter */,
+				92E672F62B78A9DC00FB40F4 /* Interactor */,
+				92E672E42B77974100FB40F4 /* StartapRouter */,
+			);
+			path = StartapScreen;
+			sourceTree = "<group>";
+		};
+		92E672E42B77974100FB40F4 /* StartapRouter */ = {
+			isa = PBXGroup;
+			children = (
+				92E672ED2B77AD7800FB40F4 /* View */,
+				92E672E52B77975000FB40F4 /* StartapRouter.swift */,
+			);
+			path = StartapRouter;
+			sourceTree = "<group>";
+		};
+		92E672E72B7797CB00FB40F4 /* AppRouter */ = {
+			isa = PBXGroup;
+			children = (
+				92E672E82B7797DD00FB40F4 /* AppRouter.swift */,
+			);
+			path = AppRouter;
+			sourceTree = "<group>";
+		};
+		92E672EA2B77AAC700FB40F4 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				92E672EB2B77AAF100FB40F4 /* StoryBoardAndViewController.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		92E672ED2B77AD7800FB40F4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				92E672EE2B77AD8700FB40F4 /* StartapViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		92E672F02B78A78900FB40F4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				92E672F12B78A7A900FB40F4 /* StorageService.swift */,
+				92E672F42B78A7F000FB40F4 /* TestStorage.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		92E672F62B78A9DC00FB40F4 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				92E672FA2B78AA9000FB40F4 /* StartupInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		92E672F72B78A9F800FB40F4 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				92E672F82B78AA8200FB40F4 /* StartupPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		92E672FC2B78B03700FB40F4 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				92E672FD2B78B04400FB40F4 /* AppConfigurator.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		92E673022B78BCFD00FB40F4 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				92E673032B78BD0C00FB40F4 /* Presenter.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,12 +317,25 @@
 			files = (
 				9266C41C2AFA98CE00E57210 /* ViewController.swift in Sources */,
 				9257C7CE2B3FF2F80066D49C /* NetworkError.swift in Sources */,
+				92E672E02B77960600FB40F4 /* Router.swift in Sources */,
+				92E672EC2B77AAF100FB40F4 /* StoryBoardAndViewController.swift in Sources */,
 				9266C4182AFA98CE00E57210 /* AppDelegate.swift in Sources */,
+				92E672F22B78A7A900FB40F4 /* StorageService.swift in Sources */,
+				92E672F92B78AA8200FB40F4 /* StartupPresenter.swift in Sources */,
+				92C695B62B78F1250060F6E6 /* ViewControllerRouter.swift in Sources */,
 				9266C4482AFA9E2A00E57210 /* CustomTableViewCell.swift in Sources */,
+				92E672F52B78A7F000FB40F4 /* TestStorage.swift in Sources */,
+				92E672E22B77968100FB40F4 /* Rotable.swift in Sources */,
 				9266C41A2AFA98CE00E57210 /* SceneDelegate.swift in Sources */,
+				92E673042B78BD0C00FB40F4 /* Presenter.swift in Sources */,
 				9257C7D02B3FF3160066D49C /* User.swift in Sources */,
+				92E672FB2B78AA9000FB40F4 /* StartupInteractor.swift in Sources */,
 				92BAC2662AFBF2A50022E576 /* DetailsViewController.swift in Sources */,
 				9257C7CC2B3FF2CB0066D49C /* Network.swift in Sources */,
+				92E672E92B7797DD00FB40F4 /* AppRouter.swift in Sources */,
+				92E672FE2B78B04400FB40F4 /* AppConfigurator.swift in Sources */,
+				92E672E62B77975000FB40F4 /* StartapRouter.swift in Sources */,
+				92E672EF2B77AD8700FB40F4 /* StartapViewController.swift in Sources */,
 				9257C7C92B3FF2950066D49C /* ApiClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

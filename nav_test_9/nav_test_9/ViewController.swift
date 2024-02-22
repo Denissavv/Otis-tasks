@@ -7,7 +7,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, Routable {
+    
+    var router: Router?
+    
+    var presenter: LoginPresenter?
     
     
     var users: [User] = [] {
